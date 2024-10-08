@@ -18,8 +18,8 @@ void signIn(int password, string f_name,string l_name, string email, string gend
 void acc(string acc_name, int acc_password) {
   cout << "\n\n \t\t\t\t\t\t YOUR PRIVATE ACCOUNT" << endl;
   cout << "\t\t\t\t" << "---------------------------------------------------" << endl;
-  cout << "\t\t\t\t" << "Acc_name: " << acc_name;
-  cout << "\t\t\t\t" << "Acc_password: " << acc_password;
+  cout << "\t\t\t\t" << "Acc_name: " << acc_name << endl;
+  cout << "\t\t\t\t" << "Acc_password: " << acc_password << endl;
   cout << "\n\n \t\t" << "Account is private !" << endl;
 }
 
